@@ -14,9 +14,9 @@ class Polygon:
         for i in range(self.n):
             print("Side",i+1,"is",self.sides[i])
 
-##poly = Polygon(6)
-##poly.inputSides()
-##poly.dispSides()
+poly = Polygon(6)
+poly.inputSides()
+poly.dispSides()
 
 class Triangle(Polygon):
     def __init__(self):
